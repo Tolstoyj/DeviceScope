@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Semi-transparent background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#99000000"/>
+        </shape>
+    </item>
+    
+    <!-- Transparent center -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000"/>
+            <stroke
+                android:width="4dp"
+                android:color="#1976D2"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+    <!-- Corner indicators -->
+    <item android:gravity="top|left">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="4dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+    <item android:gravity="top|left">
+        <shape android:shape="rectangle">
+            <size android:width="4dp" android:height="40dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+
+    <item android:gravity="top|right">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="4dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+    <item android:gravity="top|right">
+        <shape android:shape="rectangle">
+            <size android:width="4dp" android:height="40dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+
+    <item android:gravity="bottom|left">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="4dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom|left">
+        <shape android:shape="rectangle">
+            <size android:width="4dp" android:height="40dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+
+    <item android:gravity="bottom|right">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="4dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom|right">
+        <shape android:shape="rectangle">
+            <size android:width="4dp" android:height="40dp"/>
+            <solid android:color="#1976D2"/>
+        </shape>
+    </item>
+</layer-list> 
