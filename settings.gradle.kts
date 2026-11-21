@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MyTestC"
+rootProject.name = "DeviceScope"
 include(":app")
